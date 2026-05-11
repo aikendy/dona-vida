@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dona-vida/static/css/main.e827572b.css",
+    "main.css": "/dona-vida/static/css/main.993fe63f.css",
     "main.js": "/dona-vida/static/js/main.85c034d8.js",
     "static/js/453.f35b53b9.chunk.js": "/dona-vida/static/js/453.f35b53b9.chunk.js",
     "static/media/fa-solid-900.woff2": "/dona-vida/static/media/fa-solid-900.ce9a3fa740bd60b4ac3b.woff2",
@@ -8,12 +8,12 @@
     "static/media/fa-regular-400.woff2": "/dona-vida/static/media/fa-regular-400.cfbad32c79d9dda6af4a.woff2",
     "static/media/fa-v4compatibility.woff2": "/dona-vida/static/media/fa-v4compatibility.296da06936a3373940c8.woff2",
     "index.html": "/dona-vida/index.html",
-    "main.e827572b.css.map": "/dona-vida/static/css/main.e827572b.css.map",
+    "main.993fe63f.css.map": "/dona-vida/static/css/main.993fe63f.css.map",
     "main.85c034d8.js.map": "/dona-vida/static/js/main.85c034d8.js.map",
     "453.f35b53b9.chunk.js.map": "/dona-vida/static/js/453.f35b53b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e827572b.css",
+    "static/css/main.993fe63f.css",
     "static/js/main.85c034d8.js"
   ]
 }
