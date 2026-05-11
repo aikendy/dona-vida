@@ -529,8 +529,8 @@ section.visible {
 .popular-badge {
   background: linear-gradient(135deg, var(--rojo-dona), var(--rojo-claro));
   position: absolute;
-  top: -12px;
-  left: 24px;
+  top: 4px;
+  left: 100px;
   color: white;
   font-size: 0.75rem;
   padding: 6px 16px;

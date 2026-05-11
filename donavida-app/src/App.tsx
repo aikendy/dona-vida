@@ -1,8 +1,10 @@
 // App.tsx - Versión con EmailJS funcional
 import React, { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 
+const PUBLIC_URL = process.env.PUBLIC_URL || '';
 const App: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -13,16 +15,16 @@ const App: React.FC = () => {
   const [feedback, setFeedback] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
+  
 
-  // 🔴 ¡¡¡REEMPLAZA ESTOS 3 VALORES con los de EmailJS!!! 🔴
   const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID || '';
   const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '';
   const EMAILJS_PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY || '';
 
   const handleLogin = () => {
-    alert("🔐 Acceso a plataforma Dona Vida.\n(Página de inicio de sesión disponible próximamente)");
+    alert("🔐 Acceso a plataforma Dona Vida");
   };
-
+ const baseUrl = process.env.PUBLIC_URL || '';
   const handleContactPlan = (plan: string) => {
     const contactoSection = document.getElementById('contacto');
     if (contactoSection) {
@@ -134,7 +136,7 @@ const App: React.FC = () => {
         <div className="container">
           <div className="navbar">
             <div className="logo-img" style={{ fontSize: '15px', fontWeight: 'bold', color: '#9B0800' }}>
-              <img src="/img/DonaVida3.png" alt="Dona Vida" className="logo-img" style={{ width: '220px', height: 'auto' }}/>
+              <img src={`${baseUrl}/img/DonaVida3.png`} alt="Dona Vida" className="logo-img" style={{ width: '220px', height: 'auto' }}/>
             </div>
             <div className="nav-links">
               <a href="#que-es" onClick={(e) => handleNavClick(e, '#que-es')}>Qué es</a>
@@ -178,7 +180,7 @@ const App: React.FC = () => {
         <section id="que-es">
           <div className="container">
             <div className="section-title">
-              ¿Qué es <img src="/img/DonaVida2.png" alt="Dona Vida" className="logo-img" style={{ width: '200px', height: 'auto' }}/>?
+              ¿Qué es <img src={`${baseUrl}/img/DonaVida2.png`} alt="Dona Vida" className="logo-img" style={{ width: '200px', height: 'auto' }}/>?
             </div>
             <div className="section-sub">Más que una plataforma, un movimiento que impulsa la generosidad y el apoyo mutuo.</div>
 
@@ -354,7 +356,7 @@ const App: React.FC = () => {
         <div className="container">
           <div className="footer-content">
             <div style={{ fontSize: '20px', fontWeight: 'bold', color: '#9B0800' }}>
-              <img src="/img/DonaVida3.png" alt="Dona Vida" className="logo-img" style={{ width: '250px', height: 'auto' }}/>
+              <img src={`${baseUrl}/img/DonaVida3.png`} alt="Dona Vida" className="logo-img" style={{ width: '250px', height: 'auto' }}/>
             </div>
             <div className="social">
               <i className="fab fa-instagram"></i>
