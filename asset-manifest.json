@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cd5c067.css",
-    "main.js": "/static/js/main.cf787e42.js",
-    "static/js/453.f35b53b9.chunk.js": "/static/js/453.f35b53b9.chunk.js",
-    "index.html": "/index.html",
-    "main.4cd5c067.css.map": "/static/css/main.4cd5c067.css.map",
-    "main.cf787e42.js.map": "/static/js/main.cf787e42.js.map",
-    "453.f35b53b9.chunk.js.map": "/static/js/453.f35b53b9.chunk.js.map"
+    "main.css": "/dona-vida/static/css/main.4cd5c067.css",
+    "main.js": "/dona-vida/static/js/main.adee5de7.js",
+    "static/js/453.f35b53b9.chunk.js": "/dona-vida/static/js/453.f35b53b9.chunk.js",
+    "index.html": "/dona-vida/index.html",
+    "main.4cd5c067.css.map": "/dona-vida/static/css/main.4cd5c067.css.map",
+    "main.adee5de7.js.map": "/dona-vida/static/js/main.adee5de7.js.map",
+    "453.f35b53b9.chunk.js.map": "/dona-vida/static/js/453.f35b53b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cd5c067.css",
-    "static/js/main.cf787e42.js"
+    "static/js/main.adee5de7.js"
   ]
 }
